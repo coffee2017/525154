@@ -1,0 +1,398 @@
+body {
+    margin: 0 auto;
+    width: 980px;
+}
+form#doactive {
+    margin-top: 100px;
+}
+.inp-search {
+    padding: 9px 10px;
+    width: 655px;
+    height: 38px;
+    line-height: 36px;
+    font-size: 22px;
+    -webkit-appearance: none;
+    border-radius: 0px;
+    border: 1px solid #d2d2d2;
+    vertical-align: middle;
+    outline: none;
+    float: left;
+}
+#submit {
+    padding: 0px;
+    width: 186px;
+    height: 58px;
+    line-height: 54px;
+    font-size: 22px;
+    color: #241698;
+    border: none;
+    /* margin-top: 10px; */
+}
+.result {
+    text-align: center;
+}
+.select-com {
+    background: url(../images/spider_search_v4.png) 0px -1161px repeat-x;
+    background-color: #fff;
+    padding-left: 7px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 14px;
+    font-weight: bold;
+	text-align: left;
+}
+.select-com span {
+    margin-right: 10px;
+    padding: 2px 0px 2px 24px;
+    color: #828282;
+    font-weight: normal;
+}
+.result-companyurl {
+    border-left: 1px solid #aaaaaa;
+    background: url(/../images/spider_search_v4.png) 10px -993px no-repeat;
+    color: #828282;
+    font-size: 14px;
+    padding-left: 28px;
+    font-weight: normal;
+}
+.mr10px {
+    margin-right: 10px;
+}
+.select-com .ico-tel {
+    background: url(../images/spider_search_v4.png) 4px -868px no-repeat;
+    color: #828282;
+}
+.query-box {
+    float: left;
+    margin-bottom: 10px;
+}
+/*result*/
+#queryContext {
+    z-index: 3;
+    text-align: left;
+}
+.query-box {
+    float: left;
+    margin-bottom:10px;
+}
+.result-top {
+    width: 918px;
+    height: 43px;
+    background-color: #ffffff;
+    /*border: 1px solid #a2bbda;*/
+    border-bottom: none;
+}
+.result-top span, .result-top a {
+    display: inline-block;
+    height: 43px;
+    line-height: 43px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.result-top a {
+    padding-left: 23px;
+    width: 37px;
+    font-weight: bold;
+    color: #3278e6;
+}
+.result-top .a-rss {
+    background: url("../images/spider_search_v4.png") 3px -312px no-repeat;
+}
+.result-top .a-share {
+    background: url("../images/spider_search_v4.png") 8px -342px no-repeat;
+}
+.result-top .col1 {
+    background: url("../images/spider_search_v4.png") 80px -900px no-repeat;
+    width: 90px;
+    text-align: center;
+    color: #323232;
+    cursor: pointer;
+    padding-left: 14px;
+    font-size:16px;
+}
+.result-top .col1-down {
+    background: url("../images/spider_search_v4.png") 80px -941px no-repeat;
+    width: 90px;
+    text-align: center;
+    font-size: 16px;
+    color: #5a5a5a;
+    cursor: pointer;
+    padding-left: 14px;
+}
+.result-top .col2 {
+    width: 303px;
+    text-align: left;
+    font-size: 16px;
+    color: #5a5a5a;
+    padding-left: 50px;
+}
+/*result-info*/
+.result-info {
+    width: 600px;
+    float: left;
+}
+.queryRight {
+    float: right;
+    margin-right: 10px;
+}
+.result-info td {
+    padding: 7px;
+    color: #828282;/*border-bottom: 1px solid #d2d2d2;
+  background-color: #f5f5f5*/
+}
+.result-info .status {
+    width: 30px;
+    background: url("../images/spider_search_v4.png") 13px -764px no-repeat;
+}
+.result-info-down .status {
+    width: 30px;
+    background: url("../images/spider_search_v4.png") -30px -764px no-repeat;
+}
+.result-info .status-first {
+    background: url("../images/spider_search_v4.png") 13px -804px no-repeat;
+}
+.result-info .status-check {
+    background: url("../images/spider_search_v4.png") 10px -717px no-repeat;
+}
+.result-info .status-wait {
+    background: url("../images/spider_search_v4.png") -30px -802px no-repeat;
+}
+.status .col2 {
+    position: relative;
+    z-index:-1;
+}
+.status .line1 {
+    position: absolute;
+    left: 6.4px;
+    width: 0.57em;
+    height: 4em;
+    border-right: 0.08em solid #d2d2d2;
+    top: -5px;
+    z-index: -1;
+}
+.day {
+    display:block;
+}
+.time {
+    font-size: 16px;
+}
+.result-info .last td,  .result-info .last td a{
+    color: #ff7800;
+    border-bottom: none;
+}
+.result-info td a:hover {
+    color: #3278e6;
+}
+.result-info .row1 {
+    width: 105px;
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 0;
+}
+.result-companyurl {
+    border-left: 1px solid #aaaaaa;
+    background: url("../images/spider_search_v4.png") 10px -993px no-repeat;
+    color: #828282;
+    font-size: 14px;
+    padding-left: 28px;
+    font-weight: normal;
+}
+.sent-order {
+    color: #828282;
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: normal;
+}
+.sent-order:hover {
+    color:#3278e6
+}
+.context {
+    font-size: 14px;
+    padding-left: 0px !important;
+}
+.context a {
+    color: #828282;
+}
+.context a:hover {
+    color: #3278e6;
+}
+#rs {
+    display: none;
+}
+.input-tips {
+    z-index: 4;
+    top: 58px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #d2d2d2;
+    background-color: #fff;
+    list-style-type: none;
+	margin-top: 0;
+}
+.input-tips li:hover {
+    color: #968c8c;
+}
+.input-tips li {
+     padding-bottom: 5px;
+}
+a#selectComBtn {
+    float: left;
+    background: #fff;
+    line-height: 42px;
+    /* padding: 5px; */
+    cursor: pointer;
+    border: 1px solid #d2d2d2;
+    border-right: 0px;
+    height: 56px;
+}
+/*com-list*/
+.select-box {
+  position: absolute;
+  padding: 1px;
+  background-color: #fff;
+  _zoom: 1;
+  float: left;
+  
+}
+.other-com {
+  position: absolute;
+  top: -35px;
+  left: -1px;
+  display: block;
+  height: 27px;
+  padding: 3px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #a2bbda;
+  border-bottom: 1px solid #fff;
+  background: url("/images/spider_search_v4.png") 92px -68px no-repeat #fff;
+}
+.com-list .suggest {
+  font-size: 14px;
+  background-color: #f5f5f5;
+  margin-bottom: 1px;
+}
+.com-list .suggest .li-title {
+  display: inline-block;
+  margin-right: 1px;
+  width: 26px;
+  line-height: 14px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #ff7800;
+  padding: 4px 0;
+}
+.com-list .suggest a {
+  display: inline-block;
+  height: 36px;
+  padding: 0 10px;
+  line-height: 36px;
+  vertical-align: middle;
+  color: #323232;
+  cursor: pointer;
+}
+.com-list .suggest a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #78aaf0;
+}
+.com-list .common {
+  font-size: 14px;
+  background-color: #d2e6ff;
+}
+.com-list .common li{
+	margin-left: -35px;
+}
+.com-list .common .li-title {
+  display: inline-block;
+  margin-right: 1px;
+  width: 26px;
+  line-height: 14px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #3278e6;
+  padding: 4px 0;
+}
+.com-list .common a {
+  display: inline-block;
+  padding: 0 10px;
+  vertical-align: middle;
+  color: #323232;
+  cursor: pointer;
+}
+.com-list .common a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #78aaf0;
+  line-height: 36px;
+}
+.com-list .all-list {
+  padding: 1px 0;
+  margin: 0 auto;
+}
+.com-list .all-list li {
+  height: 27px;
+}
+.com-list .all-list li.dl-bg {
+  background-color: #f5f5f5;
+}
+.com-list .all-list li:hover, .com-list li.dl-bg:hover {
+  background-color: #d2e6ff;
+}
+.com-list .all-list .li-title {
+  display: inline-block;
+  width: 30px;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #3278e6;
+}
+.com-list .all-list li a {
+  display: inline-block;
+  height: 27px;
+  width: 84px;
+  padding: 0 4px;
+  line-height: 27px;
+  vertical-align: middle;
+  color: #323232;
+  cursor: pointer;
+}
+.com-list .all-list li a:hover {
+  text-decoration: none;
+  color: #3278e6;
+}
+.com-list .other {
+  padding: 5px 0;
+  text-align: center;
+  border-top: 1px solid #d2d2d2;
+}
+.fl {
+    float: left;
+}
+li {
+	list-style-type: none;
+}
+.hidden{
+	display:none;
+}
+#doactive .com-logo:hover i {
+    background-position: -49px -650px;
+}
+#doactive .com-logo i {
+    display: block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 45px;
+    width: 10px;
+    height: 10px;
+    background: url(../images/spider_search_v4.png) 0px -650px no-repeat;
+}
+.com-logo img {
+    width: 56px;
+    height: 56px;
+}
